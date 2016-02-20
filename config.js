@@ -26,7 +26,7 @@ config = {
 
   // Production (Heroku)
   production: {
-    url: process.env.HEROKU_URL,
+    url: "https://rayasycentollas.herokuapp.com",
     mail: {
       transport: 'SMTP',
       options: {
